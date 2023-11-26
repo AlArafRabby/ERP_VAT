@@ -1,0 +1,354 @@
+﻿@model IEnumerable<Vat.Models.Customer>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerOrganizationId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nidno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tinno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsVds)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vdsrate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsTds)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tdsrate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsRegisteredUnderActNinetyFour)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RegistrationNumberUnderActNinetyFour)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ServiceVatCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DistrictOrCityId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DivisionOrStateId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusinessCategoryDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsForeignCustomer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsFullExportOriented)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactPerson)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactPersonDesignation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactPersonMobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactPersonEmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryCountryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryDistrictOrCityId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryDivisionOrStateId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryContactPerson)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryContactPersonDesignation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryContactPersonMobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryContactPersonEmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankAccountNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankRoutingCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankBranchName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankBranchAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReferenceKey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifiedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifiedTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApiTransactionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExcelDataUploadId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bank)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankBranchCountry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankBranchDistrictOrCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusinessCategory)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusinessNature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomsAndVatcommissionarate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Organization)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerOrganizationId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nidno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tinno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsVds)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vdsrate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsTds)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tdsrate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsRegisteredUnderActNinetyFour)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegistrationNumberUnderActNinetyFour)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ServiceVatCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DistrictOrCityId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DivisionOrStateId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BusinessCategoryDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsForeignCustomer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsFullExportOriented)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactPerson)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactPersonDesignation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactPersonMobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactPersonEmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryCountryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryDistrictOrCityId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryDivisionOrStateId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryContactPerson)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryContactPersonDesignation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryContactPersonMobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryContactPersonEmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BankAccountNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BankRoutingCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BankBranchName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BankBranchAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReferenceKey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifiedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifiedTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApiTransactionId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExcelDataUploadId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bank.BankId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BankBranchCountry.CountryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BankBranchDistrictOrCity.DistrictOrCityId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BusinessCategory.BusinessCategoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BusinessNature.BusinessNatureId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country.CountryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomsAndVatcommissionarate.CustomsAndVatcommissionarateId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Organization.OrganizationId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CustomerId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CustomerId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CustomerId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

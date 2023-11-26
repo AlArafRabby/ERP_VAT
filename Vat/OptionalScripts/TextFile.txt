@@ -1,0 +1,2 @@
+﻿**** Write Scaffold ERP_APPS **********************
+ scaffold-DbContext "Data Source=10.24.50.119;Initial Catalog=iVat;User ID=rabby.corp;Password=1234;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Models" -ContextDir "Context"  -f

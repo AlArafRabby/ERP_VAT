@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Vat.Models.District>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+<p>
+    <a asp-action="create">Create New District</a>
+</p>
+<table>
+    <thead>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model=>model.DistrictId)
+            </td>
+            <td>
+                @Html.DisplayNameFor(model=>model.Name)
+            </td>
+            <td>
+                @Html.DisplayNameFor(model=>model.NameInBangla)
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelitem=>item.DistrictId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelitem=>item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelitem=>item.NameInBangla)
+                </td>
+            </tr>
+        }
+      
+    </tbody>
+</table>

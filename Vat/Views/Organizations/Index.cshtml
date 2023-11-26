@@ -1,0 +1,282 @@
+﻿@model IEnumerable<Vat.Models.Organization>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParentOrganizationId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Code)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VatregNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusinessCategoryDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsProductionCompany)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsDeductVatInSource)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsSellStandardVatProduct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CertificateNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CountryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CityId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VatResponsiblePersonName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VatResponsiblePersonDesignation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VatResponsiblePersonMobileNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VatResponsiblePersonEmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VatResponsiblePersonSignUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EnlistedNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostalCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsSaleSimplified)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsImposeServiceCharge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ServiceChargePercent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsUserSignInSalesTaxInvoice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsRequireSku)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsRequireSkuId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsRequireGoodsId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsRequirePartNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsRequireComplecatedInformation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InvoiceNameEng)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InvoiceNameBan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifiedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifiedTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusinessCategory)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusinessNature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomsAndVatcommissionarate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FinancialActivityNature)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParentOrganizationId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VatregNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BusinessCategoryDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsProductionCompany)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDeductVatInSource)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsSellStandardVatProduct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CertificateNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CountryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CityId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VatResponsiblePersonName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VatResponsiblePersonDesignation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VatResponsiblePersonMobileNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VatResponsiblePersonEmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VatResponsiblePersonSignUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EnlistedNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostalCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsSaleSimplified)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsImposeServiceCharge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ServiceChargePercent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsUserSignInSalesTaxInvoice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsRequireSku)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsRequireSkuId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsRequireGoodsId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsRequirePartNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsRequireComplecatedInformation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InvoiceNameEng)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InvoiceNameBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifiedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifiedTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BusinessCategory.BusinessCategoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BusinessNature.BusinessNatureId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomsAndVatcommissionarate.CustomsAndVatcommissionarateId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FinancialActivityNature.FinancialActivityNatureId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.OrganizationId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.OrganizationId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.OrganizationId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

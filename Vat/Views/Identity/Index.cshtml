@@ -1,0 +1,222 @@
+﻿@model IEnumerable<Vat.Models.User>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeePin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Designation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NidNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TinNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserSignUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InActivationReason)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InActivationTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InActivatedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsLocked)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastLockTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastLockReason)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastUnlockedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastUnlockTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastLoginTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccessFailedCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsDefaultPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsCompanyRepresentative)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExpiryDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Organization)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Role)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeePin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Designation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NidNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TinNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserImageUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserSignUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InActivationReason)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InActivationTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InActivatedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsLocked)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastLockTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastLockReason)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastUnlockedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastUnlockTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastLoginTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccessFailedCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDefaultPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsCompanyRepresentative)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExpiryDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Organization.OrganizationId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role.RoleId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserType.UserTypeId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.UserId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.UserId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

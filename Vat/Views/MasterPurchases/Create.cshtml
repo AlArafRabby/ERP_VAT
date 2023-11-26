@@ -1,0 +1,211 @@
+﻿@model Vat.Models.MasterPurchase
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">*@
+
+@using (Html.BeginForm())
+{
+    
+    @Html.AntiForgeryToken()
+<div class="panel-group">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            Purchase Header
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                        <label asp-for="Customername" class="control-label"></label>
+                        <input asp-for="Customername" class="form-control" />
+                        <span asp-validation-for="Customername" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                        <label asp-for="CustomerContactNo" class="control-label"></label>
+                        <input asp-for="CustomerContactNo" class="form-control" />
+                        <span asp-validation-for="CustomerContactNo" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                        <label asp-for="Description" class="control-label"></label>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                        <label asp-for="PurchaseDate" class="control-label"></label>
+                        <input asp-for="PurchaseDate" class="form-control" />
+                        <span asp-validation-for="PurchaseDate" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="panel-group">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                           Add Purchase Details
+                        </div>
+                    </div>
+                    <div class="panel-body">
+
+                           <div class="form-group row">
+                        @*    @Html.LabelFor(m=>m.Customername,"customer Name",new {@class="control-label col-md-4"})*@
+                        @Html.Label("ItemName","Item Name",new {@class="control-label col-md-4"})
+                            <div class="col-md-4">
+                              @*  @Html.TextBoxFor(m=>m.Customername,null,new {@class="form-control"})*@
+                            @Html.TextBox("ItemName",null,new {@class="form-control"})
+                            </div>
+                           </div>
+
+
+                           <div class="form-group row">
+         
+                        @Html.Label("ItemQty","Item Qty",new {@class="control-label col-md-4"})
+                            <div class="col-md-4">
+               
+                            @Html.TextBox("ItemQty",null,new {@class="form-control"})
+                            </div>
+                           </div>
+
+
+                    <div class="form-group row">
+         
+                        @Html.Label("ItemPrice","Item Price",new {@class="control-label col-md-4"})
+                        <div class="col-md-4">
+                    
+                            @Html.TextBox("ItemPrice",null,new {@class="form-control"})
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="button" value="Add" id="AddButton" class="btn btn-info" />
+                    </div>
+
+                     </div>
+                    </div>
+
+                </div>
+
+        <div class="panel-group">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        Add Purchase Details
+                    </div>
+                </div>
+                <div class="panel-body">
+
+                 <table class="table table-bordered table-hover table-striped table-responsive">
+                     <thead>
+                         <tr>
+                             <td>Sl</td>
+                             <td>item Name</td>
+                             <td>item Qty</td>
+                             <td>item Price</td>
+                         </tr>
+                     </thead>
+                     <tbody id="purchaseDetailsTable">
+                        
+                            @if(Model !=null && Model.MasterPurchaseDetails !=null && Model.MasterPurchaseDetails.Count>0)
+                            {
+                                var sl = 0;
+                                foreach(var item in Model.MasterPurchaseDetails)
+                                {
+                                    <tr>
+                                        <td>
+                                            @(++sl)
+                                        </td>
+                                        <td>
+                                            @item.Name
+                                        </td>
+                                        <td>
+                                            @item.Qty
+                                        </td>
+                                        <td>
+                                            @item.Price
+                                        </td>
+                                    </tr>
+                                }
+                                
+                            }
+
+                     </tbody>
+                 </table>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+</div>
+}
+@*        </form>
+    </div>
+</div>*@
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+@section Scripts{
+    <script>
+        $("#AddButton").click(function () {
+            createRowForPurchase();
+        });
+
+        function createRowForPurchase() {
+            var selected = getSelectedItem();
+
+            console.log(selected);
+
+            // ... Your existing code ...
+            var index = $("#purchaseDetailsTable tr").length;
+            //SI For Serial Number
+            var sl = index;
+            // Declare indexCell here
+            var indexCell = "<td style='display:none'><input type='hidden' id='index" + index + "' name='MasterPurchaseDetails.Index' value='" + index + "' /></td>";
+            var serialCell = "<td />" + (++sl) + "</td>";
+
+            var itemNameCell = "<td ><input type='hidden' id='ItemName" + index + "' name='MasterPurchaseDetails[" + index + "].Name' value='" + selected.ItemName + "' />" + selected.ItemName + "</td>";
+            var itemQtyCell = "<td ><input type='hidden' id='ItemQty" + index + "' name='MasterPurchaseDetails[" + index + "].Qty' value='" + selected.ItemQty + "' />" + selected.ItemQty + "</td>";
+            var itemPriceCell = "<td ><input type='hidden' id='ItemPrice" + index + "' name='MasterPurchaseDetails[" + index + "].Price' value='" + selected.ItemPrice + "' />" + selected.ItemPrice + "</td>";
+
+            var createnewrow = "<tr>" + indexCell + serialCell + itemNameCell + itemQtyCell + itemPriceCell + "</tr>";
+
+
+            console.log(createnewrow);
+
+            $("#purchaseDetailsTable").append(createnewrow);
+
+            $("#ItemName").val("");
+            $("#ItemQty").val("");
+            $("#ItemPrice").val("");
+        }
+
+        function getSelectedItem() {
+            var itemName = $("#ItemName").val();
+            var itemQty = $("#ItemQty").val();
+            var itemPrice = $("#ItemPrice").val();
+
+            var item = {
+                "ItemName": itemName,
+                "ItemQty": itemQty,
+                "ItemPrice": itemPrice,
+            };
+
+            return item; // Ensure to return the 'item' object
+        }
+
+    </script>
+}
