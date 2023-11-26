@@ -9,197 +9,197 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Vat
 build_property.RootNamespace = Vat
-build_property.ProjectDir = D:\AVL\Vat\Vat\
+build_property.ProjectDir = D:\Tutorial\ERP_VAT\Vat\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\AVL\Vat\Vat
+build_property.MSBuildProjectDirectory = D:\Tutorial\ERP_VAT\Vat
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/AVL/Vat/Vat/Views/Account/Login.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Customers/Create.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Customers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Customers/Delete.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Customers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Customers/Details.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Customers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Customers/Edit.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Customers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Customers/Index.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Customers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/District/Create.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/District/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzdHJpY3RcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/District/Index.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/District/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzdHJpY3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Home/Index.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Identity/Create.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Identity/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Identity/Index.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Identity/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/MasterPurchases/Create.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/MasterPurchases/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyUHVyY2hhc2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/MasterPurchases/Delete.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/MasterPurchases/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyUHVyY2hhc2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/MasterPurchases/Details.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/MasterPurchases/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyUHVyY2hhc2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/MasterPurchases/Edit.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/MasterPurchases/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyUHVyY2hhc2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/MasterPurchases/Index.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/MasterPurchases/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyUHVyY2hhc2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Organizations/Create.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Organizations/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Organizations/Delete.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Organizations/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Organizations/Details.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Organizations/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Organizations/Edit.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Organizations/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Organizations/Index.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Organizations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/OrgBranches/Create.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/OrgBranches/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnQnJhbmNoZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/OrgBranches/Delete.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/OrgBranches/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnQnJhbmNoZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/OrgBranches/Details.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/OrgBranches/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnQnJhbmNoZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/OrgBranches/Edit.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/OrgBranches/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnQnJhbmNoZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/OrgBranches/Index.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/OrgBranches/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnQnJhbmNoZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Roles/Create.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Roles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Roles/Delete.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Roles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Roles/Details.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Roles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Roles/Edit.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Roles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Roles/Index.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Roles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Shared/Error.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Shared/_MenuBar.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Shared/_MenuBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51QmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/VehicleTypes/Create.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/VehicleTypes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVR5cGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/VehicleTypes/Delete.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/VehicleTypes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVR5cGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/VehicleTypes/Details.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/VehicleTypes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVR5cGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/VehicleTypes/Edit.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/VehicleTypes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVR5cGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/VehicleTypes/Index.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/VehicleTypes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVR5cGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Vendors/Create.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Vendors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Vendors/Delete.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Vendors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Vendors/Details.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Vendors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Vendors/Edit.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Vendors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Vendors/Index.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Vendors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/_ViewImports.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/_ViewStart.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AVL/Vat/Vat/Views/Shared/_Layout.cshtml]
+[D:/Tutorial/ERP_VAT/Vat/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hm3vdho7m6

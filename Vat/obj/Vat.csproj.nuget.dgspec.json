@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AVL\\Vat\\Vat\\Vat.csproj": {}
+    "D:\\Tutorial\\ERP_VAT\\Vat\\Vat.csproj": {}
   },
   "projects": {
-    "D:\\AVL\\Vat\\Vat\\Vat.csproj": {
+    "D:\\Tutorial\\ERP_VAT\\Vat\\Vat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AVL\\Vat\\Vat\\Vat.csproj",
+        "projectUniqueName": "D:\\Tutorial\\ERP_VAT\\Vat\\Vat.csproj",
         "projectName": "Vat",
-        "projectPath": "D:\\AVL\\Vat\\Vat\\Vat.csproj",
+        "projectPath": "D:\\Tutorial\\ERP_VAT\\Vat\\Vat.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\AVL\\Vat\\Vat\\obj\\",
+        "outputPath": "D:\\Tutorial\\ERP_VAT\\Vat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
